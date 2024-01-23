@@ -1,0 +1,249 @@
+.custom-image-container {
+    margin-right: 20px;
+  }
+  
+  .custom-image {
+    max-width:13rem;
+    height: 13rem;
+    object-fit: contain; /* Use "contain" to fit the images within the available space */
+  }
+  
+
+  .carousel-container {
+    margin-top: 20px; /* Add space between the navbar and images */
+    text-align: center;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* Style for the "In Cinemas" section */
+.title {
+  background-color: #f5f5f5; /* Background color for the section */
+  padding: 30px 0; /* Add padding to the top and bottom of the section */
+
+  /* Center the section text and add some space at the top */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for cinema items */
+.cinema-item {
+  background-color: #fff; /* Background color for each cinema item */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 20px; /* Add spacing within each item */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+  /* Center align the text and image within each item */
+  text-align: center;
+}
+
+/* Style for cinema item images */
+.cinema-item img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  border-radius: 8px; /* Add rounded corners to the image */
+}
+
+/* Style for the "Book Now" buttons */
+.book-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color for the button */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 8px; /* Add rounded corners to the button */
+  cursor: pointer; /* Display a pointer cursor on hover */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.2s ease; /* Smooth transition for background color */
+
+  /* Center align the button within the item */
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style for the "Book Now" button on hover */
+.book-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+/* Style for cinema item images */
+.cinema-item {
+  position: relative; /* Set the parent element to relative positioning */
+}
+
+.cinema-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style for the movie rating */
+.movie-rating {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.2s ease-in-out; /* Add transition for opacity */
+}
+
+/* Add hover effect for cinema items */
+.cinema-item:hover .movie-rating {
+  opacity: 1; /* Show the rating on hover */
+}
+
+/* Rest of your existing CSS for .book-button and other styles remain unchanged */
+/* Style for cinema item images */
+.cinema-item {
+  position: relative; /* Set the parent element to relative positioning */
+}
+
+.cinema-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style for the movie rating */
+.movie-rating {
+  position: absolute; /* Set the rating to absolute positioning */
+  bottom: 10px; /* Adjust as needed for vertical positioning */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the rating */
+  color: #fff; /* Text color for the rating */
+  padding: 5px 10px; /* Add padding to the rating */
+  border-radius: 5px; /* Add rounded corners */
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 1; /* Ensure the rating is always visible */
+}
+
+/* Rest of your existing CSS for .book-button and other styles remain unchanged */
+/* Style for cinema item images */
+.cinema-item {
+  position: relative; /* Set the parent element to relative positioning */
+}
+
+.cinema-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s; /* Add transition for hover effect */
+}
+
+/* Style for the movie rating */
+.movie-rating {
+  position: absolute; /* Set the rating to absolute positioning */
+  bottom: 10px; /* Adjust as needed for vertical positioning */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the rating */
+  color: #fff; /* Text color for the rating */
+  padding: 5px 10px; /* Add padding to the rating */
+  border-radius: 5px; /* Add rounded corners */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Add hover effect for cinema items */
+.cinema-item:hover img {
+  transform: scale(1.1); /* Apply scale transformation on hover */
+}
+
+/* Rest of your existing CSS for .book-button and other styles remain unchanged */
+.trust {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.trust-h {
+  color: #343a40; /* Set the text color */
+}
+
+.trust-col {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+
+
+.trust-img{
+  height: 35px;
+  width: 35px;
+}
+.footer1{
+  background-color: #111111;
+}
+.footer-container{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+}
+.social-icon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.social-icon a i{
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+.social-icon a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.social-icon a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.navfooter{
+  margin: 30px 0;
+}
+.navfooter ul{
+  display: flex;
+  justify-content: center;
+}
+.navfooter ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3 rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.navfooter ul li a:hover{
+  opacity: 1;
+}
+.footer-b{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-b{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

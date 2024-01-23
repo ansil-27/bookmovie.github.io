@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NjoyCinema</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <header class="navbar">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                        <li><a href="#" class="nav-link px-2 text-secondary">My Tickets</a></li>
+                        <li><a href="#" class="nav-link px-2 text-secondary">History</a></li>
+                        <li><a href="#" class="nav-link px-2 text-secondary">My Reviews</a></li>
+                        <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control form-control-dark" placeholder="Search Movies..." aria-label="Search" style="border: 1px solid black;">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2">Login</button>
+                        <button type="button" class="btn btn-warning">Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="small-container title">
+        <div class="row justify-content-center">
+            <div class="recommented text-center"><h2 class="title">Promoted by NjoyCenema</h2></div>
+            <div class="col-12 col-md-8">
+                <div id="customCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" id="carousel-inner">
+                        <!-- Carousel slides will be dynamically generated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+      <h2 class="text-center">In Cinemas</h2>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-4">
+          <div class="cinema-item">
+              <img src="images/jana.jpeg" alt="Jana Gana Mana">
+              <h4>Jana Gana Mana</h4>
+              <div class="movie-rating">8.9⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+          <div class ="cinema-item">
+              <img src="images/thallumaala.jpeg" alt="Thallumaala">
+              <h4>Thallumaala</h4>
+              <div class="movie-rating">8.4⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+          <div class="cinema-item">
+              <img src="images/vikram.jpeg" alt="Vikram">
+              <h4>Vikram</h4>
+              <div class="movie-rating">8.1⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+          <div class="cinema-item">
+              <img src="images/rdx.jpeg" alt="RDX">
+              <h4>RDX</h4>
+              <div class="movie-rating">7.8⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+          <div class="cinema-item">
+              <img src="images/countries.jpeg" alt="2 Countries">
+              <h4>2 Countries</h4>
+              <div class="movie-rating">8.6⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+          <div class="cinema-item">
+              <img src="images/android.jpeg" alt="Android Kunjappan">
+              <h4>Android Kunjappan</h4>
+              <div class="movie-rating">8.3⭐</div>
+              <button class="book-button">Book Now</button>
+          </div>
+      </div>
+      </div>
+  </section>
+<section class="trust">
+    <h4 class="trust-h text-center">Trusted By</h4>
+    <div class="trust-col">
+        <div class="gpay">
+            <img class="trust-img" src="images/gpay.jpeg">
+        </div>
+        <div class="paytm">
+            <img class="trust-img" src="images/paytm.jpeg">
+        </div>
+        <div class="amazon">
+            <img class="trust-img"  src="images/amapay.png">
+        </div>
+        <div class="phonepe">
+            <img class="trust-img" src="images/phonepe.png">
+        </div>
+    </div>
+</section>
+<section class="footer1">
+    <div class="footer-container">
+        <div class="social-icon">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        </div>
+        <div class="navfooter">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Partner with us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </div>
+        <div class="footer-b">
+            <p>Copyright &copy;2024; Designed by<span class="desighner">Ansil</span></p>
+        </div>
+    </div>
+</section>           
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
